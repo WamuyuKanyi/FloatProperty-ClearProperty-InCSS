@@ -27,5 +27,14 @@ p{
  clear:left ;
 }
 
+/* HOW TO ADD MULTIPLE FLOATING IMAGES */
 
-
+.one{
+  float: right;
+ }
+ .two{
+  float: left;
+ }
+p{
+ clear: both ;
+}
