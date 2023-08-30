@@ -1,0 +1,31 @@
+/* float property-The float property specifies whether an element should float to the left, right, or not at all.  */
+/* Note: Absolutely positioned elements ignore the float property!
+
+Note: Elements next to a floating element will flow around it */
+
+.banner{
+ border: 5px solid red;
+padding: 10px ;
+}
+
+img{
+ float: left;
+}
+/* NB: In this code because the paragrapgh is floating around the image  we use the clear property to fix this */
+
+
+/* clear property
+The clear property controls the flow next to floated elements.
+
+The clear property specifies what should happen with the element that is next to a floating element.
+
+Tip: Also look at the float property.
+
+
+ */
+p{
+ clear:left ;
+}
+
+
+
